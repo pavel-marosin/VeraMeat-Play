@@ -11,5 +11,6 @@
 @property (strong, nonatomic) IBOutlet UIImageView *backView;
 @property (strong, nonatomic) IBOutlet UIImageView *frontView;
 @property (atomic) BOOL frontShown;
+@property (atomic) BOOL canFlip;
 -(void)flip;
 @end

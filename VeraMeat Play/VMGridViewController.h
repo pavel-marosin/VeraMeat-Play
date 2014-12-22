@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "VMGridViewCell.h"
 NSMutableArray *cardLocations;
 @interface VMGridViewController : UICollectionViewController
 @property (nonatomic, retain) NSMutableArray *cardLocations;
 @property (atomic) NSInteger flippedPosition1;
 @property (atomic) NSInteger flippedPosition2;
+@property (nonatomic, retain) VMGridViewCell* flippedCell1;
 @end

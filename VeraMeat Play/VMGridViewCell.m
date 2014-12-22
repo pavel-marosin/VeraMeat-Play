@@ -13,7 +13,8 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-        // Initialization code
+        self.frontShown = NO;
+        self.canFlip = YES;
     }
     return self;
 }
@@ -22,6 +23,7 @@
     UIView* from;
     UIView* to;
     
+    self.canFlip = NO;
     if (!self.frontShown) {
         from = self.backView;
         to = self.frontView;
@@ -34,7 +36,7 @@
                         toView:to
                       duration:.5f
                        options:UIViewAnimationOptionTransitionFlipFromRight
-                    completion:^(BOOL finished) {}];
+                    completion:^(BOOL finished) {self.canFlip = YES;}];
     
     self.frontShown = !self.frontShown;
 }

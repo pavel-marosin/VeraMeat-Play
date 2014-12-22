@@ -26,12 +26,14 @@ NSString *const CatPrefix = @"cat_";
 NSString *const WomanPrefix = @"power_animal_";
 NSString *const ManPrefix = @"man_";
 
+NSInteger const rowSize = 4;
+
 NSInteger const dogCount = 25;
 NSInteger const catCount = 25;
 NSInteger const manCount = 13;
 NSInteger const womanCount = 18;
 
-NSInteger const cardCount = 12;
+NSInteger const cardCount = 20;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -50,6 +52,12 @@ NSInteger const cardCount = 12;
     self.flippedPosition2 = INVALID_POSITION;
     NSMutableSet *cardSet = [[NSMutableSet alloc] init];
     NSMutableSet *positionSet = [[NSMutableSet alloc] init];
+    
+    UICollectionViewFlowLayout* layout = (UICollectionViewFlowLayout*) self.collectionViewLayout;
+    
+    double size = ((self.view.frame.size.width - layout.minimumInteritemSpacing * rowSize) / rowSize);
+    
+    layout.itemSize = CGSizeMake(size, size);
     
     srand ( time(NULL) );
     
@@ -95,12 +103,24 @@ NSInteger const cardCount = 12;
     VMGridViewCell *cell = [collectionView
                                     dequeueReusableCellWithReuseIdentifier:@"Cell"
                                     forIndexPath:indexPath];
-    
     cell.backView.image = [self getBackView];
     cell.frontView.image = [self getFrontView:indexPath.item];
-//    [cell.frontView setHidden:YES];
+    [self assignSize: cell.backView fromCell:cell];
+    [self assignSize: cell.frontView fromCell:cell];
+
+    cell.canFlip = YES;
+    cell.frontShown = NO;
     
     return cell;
+}
+
+-(void)assignSize:(UIImageView*) imageView fromCell: (UICollectionViewCell*) cell {
+    [cell addConstraint:[NSLayoutConstraint constraintWithItem:imageView attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:cell attribute:NSLayoutAttributeTop multiplier:1.0 constant:0]];
+    [cell addConstraint:[NSLayoutConstraint constraintWithItem:imageView attribute:NSLayoutAttributeBottom relatedBy:NSLayoutRelationEqual toItem:cell attribute:NSLayoutAttributeBottom multiplier:1.0 constant:0]];
+    [cell addConstraint:[NSLayoutConstraint constraintWithItem:imageView attribute:NSLayoutAttributeRight relatedBy:NSLayoutRelationEqual toItem:cell attribute:NSLayoutAttributeRight multiplier:1.0 constant:0]];
+    [cell addConstraint:[NSLayoutConstraint constraintWithItem:imageView attribute:NSLayoutAttributeLeft relatedBy:NSLayoutRelationEqual toItem:cell attribute:NSLayoutAttributeLeft multiplier:1.0 constant:0]];
+    [cell layoutIfNeeded];
+    [imageView layoutIfNeeded];
 }
 
 -(UIImage*)getBackView {
@@ -117,7 +137,30 @@ NSInteger const cardCount = 12;
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
     VMGridViewCell *cell =  (VMGridViewCell*)[collectionView cellForItemAtIndexPath:indexPath];
-    [cell flip];
+    
+    if (!cell.frontShown && cell.canFlip) {
+        [cell flip];
+        
+        if (self.flippedPosition1 == INVALID_POSITION) {
+            self.flippedPosition1 = indexPath.item;
+            self.flippedCell1 = cell;
+        } else if (indexPath.item != self.flippedPosition1) {
+            self.flippedPosition2 = indexPath.item;
+            if (self.cardLocations[self.flippedPosition1] != self.cardLocations[self.flippedPosition2]) {
+                dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0), ^{
+                    [NSThread sleepForTimeInterval:1];
+                    dispatch_sync(dispatch_get_main_queue(), ^{
+                        NSLog(@"made it");
+                        [cell flip];
+                        [self.flippedCell1 flip];
+                        self.flippedCell1 = nil;
+                    });
+                });
+                self.flippedPosition1 = INVALID_POSITION;
+                self.flippedPosition2 = INVALID_POSITION;
+            }
+        }
+    }
 }
 
 @end
