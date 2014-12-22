@@ -2,7 +2,7 @@
 //  VMGridViewController.h
 //  VeraMeat Play
 //
-//  Created by Ryan Gordon on 8/24/14.
+//  Created by Pavel Marosin on 12/21/14.
 //  Copyright (c) 2014 VeraMeat. All rights reserved.
 //
 
