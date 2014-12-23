@@ -110,13 +110,13 @@
 		E99422C61A47627C0057F665 /* hand_heart.png in Resources */ = {isa = PBXBuildFile; fileRef = E99422C41A47627C0057F665 /* hand_heart.png */; };
 		E99422C71A47627C0057F665 /* vera_and_fred.png in Resources */ = {isa = PBXBuildFile; fileRef = E99422C51A47627C0057F665 /* vera_and_fred.png */; };
 		E99422D01A4889230057F665 /* VM_BEAST.png in Resources */ = {isa = PBXBuildFile; fileRef = E99422C81A4889230057F665 /* VM_BEAST.png */; };
-		E99422D11A4889230057F665 /* VM_KITTY.png in Resources */ = {isa = PBXBuildFile; fileRef = E99422C91A4889230057F665 /* VM_KITTY.png */; };
-		E99422D21A4889230057F665 /* VM_PUPPY.png in Resources */ = {isa = PBXBuildFile; fileRef = E99422CA1A4889230057F665 /* VM_PUPPY.png */; };
-		E99422D31A4889230057F665 /* VM_MAN.png in Resources */ = {isa = PBXBuildFile; fileRef = E99422CB1A4889230057F665 /* VM_MAN.png */; };
-		E99422D41A4889230057F665 /* VM_LADY.png in Resources */ = {isa = PBXBuildFile; fileRef = E99422CC1A4889230057F665 /* VM_LADY.png */; };
-		E99422D51A4889230057F665 /* VM_PACKMAGIC.png in Resources */ = {isa = PBXBuildFile; fileRef = E99422CD1A4889230057F665 /* VM_PACKMAGIC.png */; };
-		E99422D61A4889230057F665 /* VM_HANDS.png in Resources */ = {isa = PBXBuildFile; fileRef = E99422CE1A4889230057F665 /* VM_HANDS.png */; };
-		E99422D71A4889230057F665 /* VM_FOLLOW.png in Resources */ = {isa = PBXBuildFile; fileRef = E99422CF1A4889230057F665 /* VM_FOLLOW.png */; };
+		E99422ED1A49C9CC0057F665 /* VM_HANDS.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E99422E61A49C9CC0057F665 /* VM_HANDS.jpg */; };
+		E99422EF1A49C9CC0057F665 /* VM_PUPPY.png in Resources */ = {isa = PBXBuildFile; fileRef = E99422E81A49C9CC0057F665 /* VM_PUPPY.png */; };
+		E99422F01A49C9CC0057F665 /* VM_MAN.png in Resources */ = {isa = PBXBuildFile; fileRef = E99422E91A49C9CC0057F665 /* VM_MAN.png */; };
+		E99422F11A49C9CC0057F665 /* VM_LADY.png in Resources */ = {isa = PBXBuildFile; fileRef = E99422EA1A49C9CC0057F665 /* VM_LADY.png */; };
+		E99422F21A49C9CC0057F665 /* VM_PACKMAGIC.png in Resources */ = {isa = PBXBuildFile; fileRef = E99422EB1A49C9CC0057F665 /* VM_PACKMAGIC.png */; };
+		E99422F31A49C9CC0057F665 /* VM_FOLLLOW.png in Resources */ = {isa = PBXBuildFile; fileRef = E99422EC1A49C9CC0057F665 /* VM_FOLLLOW.png */; };
+		E99422F51A49CBEA0057F665 /* VM_KITTY.png in Resources */ = {isa = PBXBuildFile; fileRef = E99422F41A49CBEA0057F665 /* VM_KITTY.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -239,13 +239,13 @@
 		E99422C41A47627C0057F665 /* hand_heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hand_heart.png; path = ../../../Downloads/Archive/EXTRA/hand_heart.png; sourceTree = "<group>"; };
 		E99422C51A47627C0057F665 /* vera_and_fred.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vera_and_fred.png; path = ../../../Downloads/Archive/EXTRA/vera_and_fred.png; sourceTree = "<group>"; };
 		E99422C81A4889230057F665 /* VM_BEAST.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = VM_BEAST.png; path = ../../VM_Images/VM_BEAST.png; sourceTree = "<group>"; };
-		E99422C91A4889230057F665 /* VM_KITTY.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = VM_KITTY.png; path = ../../VM_Images/VM_KITTY.png; sourceTree = "<group>"; };
-		E99422CA1A4889230057F665 /* VM_PUPPY.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = VM_PUPPY.png; path = ../../VM_Images/VM_PUPPY.png; sourceTree = "<group>"; };
-		E99422CB1A4889230057F665 /* VM_MAN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = VM_MAN.png; path = ../../VM_Images/VM_MAN.png; sourceTree = "<group>"; };
-		E99422CC1A4889230057F665 /* VM_LADY.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = VM_LADY.png; path = ../../VM_Images/VM_LADY.png; sourceTree = "<group>"; };
-		E99422CD1A4889230057F665 /* VM_PACKMAGIC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = VM_PACKMAGIC.png; path = ../../VM_Images/VM_PACKMAGIC.png; sourceTree = "<group>"; };
-		E99422CE1A4889230057F665 /* VM_HANDS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = VM_HANDS.png; path = ../../VM_Images/VM_HANDS.png; sourceTree = "<group>"; };
-		E99422CF1A4889230057F665 /* VM_FOLLOW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = VM_FOLLOW.png; path = ../../VM_Images/VM_FOLLOW.png; sourceTree = "<group>"; };
+		E99422E61A49C9CC0057F665 /* VM_HANDS.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = VM_HANDS.jpg; path = ../../VM_Images/VM_HANDS.jpg; sourceTree = "<group>"; };
+		E99422E81A49C9CC0057F665 /* VM_PUPPY.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = VM_PUPPY.png; path = ../../VM_Images/VM_PUPPY.png; sourceTree = "<group>"; };
+		E99422E91A49C9CC0057F665 /* VM_MAN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = VM_MAN.png; path = ../../VM_Images/VM_MAN.png; sourceTree = "<group>"; };
+		E99422EA1A49C9CC0057F665 /* VM_LADY.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = VM_LADY.png; path = ../../VM_Images/VM_LADY.png; sourceTree = "<group>"; };
+		E99422EB1A49C9CC0057F665 /* VM_PACKMAGIC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = VM_PACKMAGIC.png; path = ../../VM_Images/VM_PACKMAGIC.png; sourceTree = "<group>"; };
+		E99422EC1A49C9CC0057F665 /* VM_FOLLLOW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = VM_FOLLLOW.png; path = ../../VM_Images/VM_FOLLLOW.png; sourceTree = "<group>"; };
+		E99422F41A49CBEA0057F665 /* VM_KITTY.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = VM_KITTY.png; path = ../../VM_Images/VM_KITTY.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -321,14 +321,14 @@
 		942B965E19AAC846006A396B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E99422F41A49CBEA0057F665 /* VM_KITTY.png */,
+				E99422E61A49C9CC0057F665 /* VM_HANDS.jpg */,
+				E99422E81A49C9CC0057F665 /* VM_PUPPY.png */,
+				E99422E91A49C9CC0057F665 /* VM_MAN.png */,
+				E99422EA1A49C9CC0057F665 /* VM_LADY.png */,
+				E99422EB1A49C9CC0057F665 /* VM_PACKMAGIC.png */,
+				E99422EC1A49C9CC0057F665 /* VM_FOLLLOW.png */,
 				E99422C81A4889230057F665 /* VM_BEAST.png */,
-				E99422C91A4889230057F665 /* VM_KITTY.png */,
-				E99422CA1A4889230057F665 /* VM_PUPPY.png */,
-				E99422CB1A4889230057F665 /* VM_MAN.png */,
-				E99422CC1A4889230057F665 /* VM_LADY.png */,
-				E99422CD1A4889230057F665 /* VM_PACKMAGIC.png */,
-				E99422CE1A4889230057F665 /* VM_HANDS.png */,
-				E99422CF1A4889230057F665 /* VM_FOLLOW.png */,
 				E99422C41A47627C0057F665 /* hand_heart.png */,
 				E99422C51A47627C0057F665 /* vera_and_fred.png */,
 				E99422481A44827D0057F665 /* back_card_cat.png */,
@@ -523,18 +523,19 @@
 				E99422B31A44827D0057F665 /* power_animal_6.png in Resources */,
 				E99422A11A44827D0057F665 /* man_1.png in Resources */,
 				E99422B51A44827D0057F665 /* power_animal_8.png in Resources */,
+				E99422F31A49C9CC0057F665 /* VM_FOLLLOW.png in Resources */,
 				948616AD19B4FC2F00B3D4AB /* dog_24.png in Resources */,
-				E99422D71A4889230057F665 /* VM_FOLLOW.png in Resources */,
 				E99422B71A44827D0057F665 /* power_animal_10.png in Resources */,
 				E99422B81A44827D0057F665 /* power_animal_11.png in Resources */,
-				E99422D61A4889230057F665 /* VM_HANDS.png in Resources */,
 				E99422BC1A44827D0057F665 /* power_animal_15.png in Resources */,
 				E99422BE1A44827D0057F665 /* power_animal_17.png in Resources */,
 				E99422A51A44827D0057F665 /* man_5.png in Resources */,
+				E99422F11A49C9CC0057F665 /* VM_LADY.png in Resources */,
+				E99422F01A49C9CC0057F665 /* VM_MAN.png in Resources */,
 				E99422C21A44827D0057F665 /* cat_3.png in Resources */,
-				E99422D41A4889230057F665 /* VM_LADY.png in Resources */,
 				E99422911A44827D0057F665 /* cat_12.png in Resources */,
 				E99422C71A47627C0057F665 /* vera_and_fred.png in Resources */,
+				E99422F21A49C9CC0057F665 /* VM_PACKMAGIC.png in Resources */,
 				E99422921A44827D0057F665 /* cat_13.png in Resources */,
 				E99422BF1A44827D0057F665 /* power_animal_18.png in Resources */,
 				E994228C1A44827D0057F665 /* cat_7.png in Resources */,
@@ -546,10 +547,11 @@
 				948616CB19B4FE4100B3D4AB /* dog_13.png in Resources */,
 				E994229D1A44827D0057F665 /* dog_9.png in Resources */,
 				948616B919B4FCA700B3D4AB /* cat_16.png in Resources */,
+				E99422F51A49CBEA0057F665 /* VM_KITTY.png in Resources */,
 				948616CF19B4FE4100B3D4AB /* dog_17.png in Resources */,
 				948616BB19B4FCA700B3D4AB /* cat_18.png in Resources */,
-				E99422D11A4889230057F665 /* VM_KITTY.png in Resources */,
 				948616AE19B4FC2F00B3D4AB /* dog_25.png in Resources */,
+				E99422ED1A49C9CC0057F665 /* VM_HANDS.jpg in Resources */,
 				E99422A61A44827D0057F665 /* man_6.png in Resources */,
 				E99422A21A44827D0057F665 /* man_2.png in Resources */,
 				948616BC19B4FCA700B3D4AB /* cat_19.png in Resources */,
@@ -590,9 +592,7 @@
 				E99422AE1A44827D0057F665 /* power_animal_1.png in Resources */,
 				E99422BB1A44827D0057F665 /* power_animal_14.png in Resources */,
 				E99422A41A44827D0057F665 /* man_4.png in Resources */,
-				E99422D51A4889230057F665 /* VM_PACKMAGIC.png in Resources */,
 				E99422AA1A44827D0057F665 /* man_10.png in Resources */,
-				E99422D31A4889230057F665 /* VM_MAN.png in Resources */,
 				948616CC19B4FE4100B3D4AB /* dog_14.png in Resources */,
 				E99422861A44827D0057F665 /* back_card_cat.png in Resources */,
 				948616C219B4FCA700B3D4AB /* cat_25.png in Resources */,
@@ -606,6 +606,7 @@
 				948616AA19B4FC2F00B3D4AB /* dog_21.png in Resources */,
 				942B966219AAC846006A396B /* InfoPlist.strings in Resources */,
 				E99422C61A47627C0057F665 /* hand_heart.png in Resources */,
+				E99422EF1A49C9CC0057F665 /* VM_PUPPY.png in Resources */,
 				E99422B21A44827D0057F665 /* power_animal_5.png in Resources */,
 				948616BF19B4FCA700B3D4AB /* cat_22.png in Resources */,
 				E994229E1A44827D0057F665 /* dog_10.png in Resources */,
@@ -614,7 +615,6 @@
 				E99422971A44827D0057F665 /* dog_3.png in Resources */,
 				948616AB19B4FC2F00B3D4AB /* dog_22.png in Resources */,
 				E99422941A44827D0057F665 /* cat_15.png in Resources */,
-				E99422D21A4889230057F665 /* VM_PUPPY.png in Resources */,
 				E99422981A44827D0057F665 /* dog_4.png in Resources */,
 				E99422871A44827D0057F665 /* back_card_dog.png in Resources */,
 			);

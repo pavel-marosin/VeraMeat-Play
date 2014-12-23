@@ -17,35 +17,35 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="VM_BEAST.png" translatesAutoresizingMaskIntoConstraints="NO" id="n2G-3Y-XOo">
-                                <rect key="frame" x="0.0" y="1" width="322" height="138"/>
+                                <rect key="frame" x="-5" y="0.0" width="330" height="138"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="VM_KITTY.png" translatesAutoresizingMaskIntoConstraints="NO" id="m55-5Y-9G5" customClass="CatPlay">
-                                <rect key="frame" x="2" y="139" width="321" height="89"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="VM_KITTY.png" translatesAutoresizingMaskIntoConstraints="NO" id="f04-VD-E6m">
+                                <rect key="frame" x="-5" y="138" width="330" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="VM_PUPPY.png" translatesAutoresizingMaskIntoConstraints="NO" id="IIg-0A-ChG">
-                                <rect key="frame" x="0.0" y="227" width="326" height="100"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="VM_PUPPY.png" translatesAutoresizingMaskIntoConstraints="NO" id="E9a-6c-SCw">
+                                <rect key="frame" x="-5" y="213" width="330" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="VM_MAN.png" translatesAutoresizingMaskIntoConstraints="NO" id="Foj-7i-m0a">
-                                <rect key="frame" x="0.0" y="335" width="322" height="90"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="VM_MAN.png" translatesAutoresizingMaskIntoConstraints="NO" id="3RG-83-wnT">
+                                <rect key="frame" x="-5" y="290" width="330" height="87"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="VM_LADY.png" translatesAutoresizingMaskIntoConstraints="NO" id="kt1-5T-dmT">
-                                <rect key="frame" x="-1" y="426" width="322" height="80"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="VM_LADY.png" translatesAutoresizingMaskIntoConstraints="NO" id="QTF-PR-5y6">
+                                <rect key="frame" x="-5" y="385" width="330" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="VM_PACKMAGIC.png" translatesAutoresizingMaskIntoConstraints="NO" id="BAq-UB-wIN">
-                                <rect key="frame" x="2" y="506" width="113" height="62"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="VM_PACKMAGIC.png" translatesAutoresizingMaskIntoConstraints="NO" id="ihD-8U-JJK">
+                                <rect key="frame" x="-5" y="479" width="101" height="94"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="VM_HANDS.png" translatesAutoresizingMaskIntoConstraints="NO" id="IJU-2q-t7a">
-                                <rect key="frame" x="115" y="506" width="103" height="62"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="VM_HANDS.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="1zW-fF-R0Q">
+                                <rect key="frame" x="93" y="479" width="124" height="89"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="VM_FOLLOW.png" translatesAutoresizingMaskIntoConstraints="NO" id="NcY-EY-Ixk">
-                                <rect key="frame" x="216" y="506" width="106" height="62"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="VM_FOLLLOW.png" translatesAutoresizingMaskIntoConstraints="NO" id="um5-qb-hev">
+                                <rect key="frame" x="215" y="479" width="110" height="92"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -105,13 +105,13 @@
     </scenes>
     <resources>
         <image name="VM_BEAST.png" width="512" height="218"/>
-        <image name="VM_FOLLOW.png" width="168" height="131"/>
-        <image name="VM_HANDS.png" width="162" height="131"/>
-        <image name="VM_KITTY.png" width="512" height="120"/>
-        <image name="VM_LADY.png" width="511" height="143"/>
-        <image name="VM_MAN.png" width="511" height="143"/>
-        <image name="VM_PACKMAGIC.png" width="162" height="131"/>
-        <image name="VM_PUPPY.png" width="511" height="143"/>
+        <image name="VM_FOLLLOW.png" width="101" height="78"/>
+        <image name="VM_HANDS.jpg" width="124" height="91"/>
+        <image name="VM_KITTY.png" width="320" height="75"/>
+        <image name="VM_LADY.png" width="320" height="86"/>
+        <image name="VM_MAN.png" width="320" height="87"/>
+        <image name="VM_PACKMAGIC.png" width="98" height="70"/>
+        <image name="VM_PUPPY.png" width="320" height="90"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
