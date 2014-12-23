@@ -26,14 +26,14 @@ NSString *const CatPrefix = @"cat_";
 NSString *const WomanPrefix = @"power_animal_";
 NSString *const ManPrefix = @"man_";
 
-NSInteger const rowSize = 4;
+NSInteger const rowSize = 3;
 
 NSInteger const dogCount = 25;
 NSInteger const catCount = 25;
 NSInteger const manCount = 13;
 NSInteger const womanCount = 18;
 
-NSInteger const cardCount = 20;
+NSInteger const cardCount = 24;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -124,11 +124,11 @@ NSInteger const cardCount = 20;
 }
 
 -(UIImage*)getBackView {
-    return [UIImage imageNamed:DogBacks];
+    return [UIImage imageNamed:CatBacks];
 }
 
 -(UIImage*)getFrontView: (NSInteger)position {
-    NSMutableString *file = [DogPrefix mutableCopy];
+    NSMutableString *file = [CatPrefix mutableCopy];
     NSNumber *postfix = self.cardLocations[position];
     [file appendFormat:@"%d", [postfix intValue]];
     return [UIImage imageNamed:file];
